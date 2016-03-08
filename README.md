@@ -26,4 +26,5 @@ iOS实现图片的无限滚动，以及对多个滚动试图的管理
         man.scrollViewArray = nil; // 如果用到 ZJScrollViewForHomePageManager 需要设置nil以释放内存
     });
 ```
+@[](https://github.com/zxc3731/ZJScrollViewForHomePage/blob/master/tem22.gif)
 框架的URL图片加载依赖SDWebImage，有需要可以自己改就好
