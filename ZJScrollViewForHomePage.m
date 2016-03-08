@@ -112,6 +112,7 @@
     self.clickBlock(0);
 }
 - (void)dealloc {
+    [_mainScorllView theViewInvild];
     NSLog(@"dealloc - 444");
 }
 @end
