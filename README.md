@@ -18,6 +18,7 @@ iOS实现图片的无限滚动，以及对多个滚动试图的管理
         NSLog(@"i1:%d", index);
     };
     
+    // 以下有需要管理多个滚动视图的话可以这样，没有需求的就免了
     ZJScrollViewForHomePageManager *man = [ZJScrollViewForHomePageManager shareManager];
     [man addMainScorllView:self.cycolView];
     [man addMainScorllView:self.cycolView1];
